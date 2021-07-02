@@ -116,16 +116,18 @@ const DashBoard = () => {
                         borderBottom: "2px solid #F7FBFD",
                     }}
                 >
+                    <a href="https://kawatoken.io" target="_blank" rel="noopener">
                     <Navbar.Brand>
-                        <a href="https://kawatoken.io" target="_blank" rel="noopener">
+                        
                         <Image
                             src={Logo}
                             roundedCircle
                             style={{ maxWidth: "36px", maxHeight: "36px", marginRight: '12px' }}
                         />
                         <img alt="KawaFarm" src={logoKawafarm} className="svg-kawa" />
-                        </a>
+                        
                     </Navbar.Brand>
+                    </a>
                     
                     <Navbar.Collapse id="basic-navbar-nav" style={{ marginRight: "24px" }}>
                         <Nav className="ml-auto" style={{ fontSize: "14px" }}>
